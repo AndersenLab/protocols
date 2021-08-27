@@ -9,7 +9,7 @@
 3. After 12-15 hours, pick L1s from the bacterial lawn away from the bleach to a fresh 6 cm plate. Pick 20-30 L1s per genotype.
 4. After 48 hours, pick 4-5 L4s to a fresh 6 cm plate. Pick 1-2 plates per genotype.
 5. Three days later, pick 5 L4s to a fresh 6 cm plate. Pick XX plates per genotype.
-6. Four days later, you will be ready to perform a filtering assay. Before filtering, it is best to pick 5 L4s to ~5 6cm plate. These plates can be used in the next optimization assay 4 days later. Repeat this step throughout optimization process in order to save time and plates. 
+6. Four days later, you will be ready to perform a filtering assay. Before filtering, it is best to pick 5 L4s to ~5 6cm plates. They can be used in the next optimization assay 4 days later. Repeat this step throughout optimization process to maintain a viable filtering population.
 
 *** Take care to avoid using plates with any visible bacterial or fungal contamination as this contamination could get propagated through to the next steps ***
 
