@@ -68,7 +68,7 @@
 
 **Scaling Assay**
 
-1. Determine the titer of embryos by counting the number of embryos in 3 µL. Adjust the volume of K-media to obtain the desired concentration (~0.5 - 1 embryo per µL).
+1. Determine the titer of embryos by counting the number of embryos in 3 µL. Perform this three times for each sample. Adjust the volume of K-media to obtain the desired concentration (~0.5 - 1 embryo per µL).
 2. Vortex each 15 mL conical of embryos for at least five seconds before pouring into single channel reservoir. Either pipette immediately or use the mix function before pipetting into assay plates. Pipette 50 μl of embryo solution to get to about 25-50 animals into the number of tissue-culture treated 96-well flat-bottom plates that are needed for your assay. Use the Eppendorf Xplorer 12-channel repeat pipetter to speed up the process and decrease repetitive strain. Remember to mix each row three times before aspirating and dispensing to tissue-culture plates. Use the 12-channel pipet set to 100 μL to mix.
 3. Seal all 96-well plates with Rayon gas permeable strip (Fisher cat #14-222-043). Try to avoid wrinkles in the Rayon strip.
 4. Shake overnight at 180 rpm at 20ºC on the Excella E24R shaker in a freshly made humidity chamber.
@@ -259,4 +259,4 @@
                 3. Complete step
     2. Processing data
         - Helpful R scripts are in the github repo for this project. Standard analysis scripts are still in the works.
-        - 
+        -
