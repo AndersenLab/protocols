@@ -1,4 +1,21 @@
-# HE-LL(High Embryo, Less Lethality)-30 Age Sync
+# Age Synchronization Protocols
+
+### Overview:
+
+Protocol Goals: 
+
+1. Provide an outline of strategies to assess the performance of filter protocols.
+2. Provide steps to perform current candidate protocols (40-40-20 & HE-LL). 
+
+We have two methods to test the performance of a candidate filter protocols, optimization assays or scaling assays. Optimization assays are a quick way of testing new or modified filtering methods. They can be useful to estimate the yield and purity of a technique. Scaling assays test filter methods more extensively and give you a sense of the robustness of the method. You are able to measure technical reproducibility and do direct comparisons to other prep methods (Like bleaching). You can also measure the developmental effects of a prep method (ex. Azide inhibiting embryonic growth).
+
+Currently we have two candidate filter protocols: 40-40-20 and HE-LL(formerly HP-30). This protocol contains the steps to perform these methods. It also contains details about how to set up and analyze results from either an optimization assay or a scaling assay.
+
+Hopefully this provides a framework to develop and test these or other candidate protocols in the future!
+
+Other notes about the project, other potential techniques and development of the 40-40-20 protocol can be found [here](https://docs.google.com/document/d/1Z8a4WLC63JNlymGmWKL7IZSDglvY4tPRevBUFIVjZ-s/edit).
+
+### Outline:
 
 ### Plate Staging
 
@@ -9,7 +26,7 @@
 3. After 12-15 hours, pick L1s from the bacterial lawn away from the bleach to a fresh 6 cm plate. Pick 20-30 L1s per genotype.
 4. After 48 hours, pick 4-5 L4s to a fresh 6 cm plate. Pick 1-2 plates per genotype.
 5. Three days later, pick 5 L4s to a fresh 6 cm plate. Pick XX plates per genotype.
-6. Four days later, you will be ready to perform a filtering assay. Before filtering, it is best to pick 5 L4s to ~5 6cm plates. They can be used in the next optimization assay 4 days later. Repeat this step throughout optimization process to maintain a viable filtering population.
+6. Four days later, you will be ready to perform a filtering assay. Before filtering, it is best to pick 5 L4s to 5-10 6cm plates (more plates are needed for 40-40-20 method). They can be used in the next optimization assay 4 days later. Repeat this step throughout optimization process.
 
 *** Take care to avoid using plates with any visible bacterial or fungal contamination as this contamination could get propagated through to the next steps ***
 
@@ -28,37 +45,57 @@
 
 ** **Clean filters right before you plan to use them **** 
 
-1. Place filters in 10% bleach solution for 10 mins. Stir occasionally. 
-2. Briefly rinse filters in 70% ETOH. 
-3. Use compressed air to dry filters. 
-4. Place dry filters on a piece of aluminum foil.  
-5. Wrap the clean filters in aluminum foil.
+1. Place filters and glass funnel in 10% bleach solution for 10 mins. Stir occasionally. 
+2. Briefly rinse in 70% ETOH. 
+3. Use compressed air to dry. 
+4. Place on a piece of aluminum foil.  
+5. Wrap in aluminum foil store until you are ready to filter.
 
-### Filter Stack Set up
+### Filtering(HE-LL)
 
-1. For each strain, set up a single 50 mL conical tube with a connector ring (in the closed position) attached to a 30 µm filter attached to a funnel 
-
-### Filtering
-
-1. For each plate in your strain prep: 
-    1. Add ~2mL of M9 to plate. Vigorously swirl and tap plate to remove larger adults from agar. Discard M9 worm solution.  Repeat 5 times. (If you are also performing 40-40-20 Age Synch you can pour M9 worm solution onto filter stack)
+1. For each strain set up a single 50 mL conical tube with a connector ring (in the closed position) attached to a 30 µm filter attached to a funnel 
+2. For each plate in your strain prep: 
+    1. Add ~2mL of M9 to plate. Vigorously swirl and tap plate to remove larger adults from agar. Discard M9 worm solution.  Repeat 4 more times. (If you are also performing 40-40-20 Age Synch you can pour M9 worm solution onto filter stack)
     2. Prepare a hockey stick using a disposable glass pipette (make a new hockey stick for each strain in your prep). 
     3. To collect the embryos, add a small amount of M9 to your plate and use the hockey stick to break up the bacterial lawn. 
     4. Add the M9 & embryo solution to your filter stack.
-    5. To ensure all the embryos are collected, add ~2mL of M9 to the plate. Swirl and pour into filter stack. Repeat twice. 
+    5. To ensure all the embryos are collected, add ~2mL of M9 to the plate. Swirl and pour into filter stack. Repeat two more times. 
     6. Release the filter valve. You may have to gently tap the filter stack on the lab bench to get the fluid to flow. 
     7. Repeat these steps for each plate in your prep. 
-2. Once you have finished with all the plates in your prep, rinse the filter stack. Add ~3mL of M9. Release the filter valve and allow all of the liquid to flow through. You may have to gently tap the filter stack on the lab bench to get the fluid to flow. Repeat 3 times. 
-3. After washing, use a 3mL syringe to ensure all liquid has traveled through the filter. Remove the red filter valve and attach the syringe. Pull back the plunger to aspirate the filter stack.  
+3. Once you have finished with all the plates, rinse the filter stack. Add ~3mL of M9. Release the filter valve and allow all of the liquid to flow through. You may have to gently tap the filter stack on the lab bench to get the fluid to flow. Repeat two more times. 
+4. After washing, use a 3mL syringe to ensure all liquid has traveled through the filter. Remove the red filter valve and attach the syringe. Pull back the plunger to aspirate the filter stack.  
+
+### Filtering(40-40-20)
+
+1. For each strain, set up a single 50 mL conical tube with a connector ring (in the closed position) attached to a 40 µm filter attached to a funnel (**Figure 1**)
+    1. 10-15 6cm plates should be able to fit easily in one filter, but if you need more you should probably test the throughput first.
+2. Wash worms off plates into the funnel on top of the 50 mL conical. Add about 2mL of M9 to each plate, swirl and tap. After each plate, release the filter valve.  Repeat 4 more times.
+    1. This could be streamlined to be like bleaching. Ex(You can squirt M9 onto one plate of Strain A, transfer the liquid to another plate of strain A, etc. Wash all plates from a single strain into one funnel/filter setup. 
+3. Once you have finished with all the plates, rinse the filter stack. Add ~3mL of M9. Release the filter valve and allow all of the liquid to flow through. You may have to gently tap the filter stack on the lab bench to get the fluid to flow. Repeat two more times. 
+    1. The wash volume could be increased. Katie was doing 15mL x3.
+4. After washing, use a 3mL syringe to pull all the liquid through the filter. Remove the red filter valve and attach the syringe. Pull back the plunger to aspirate the filter stack.  
+
+**Allow adults to lay embryos**
+
+1. Transfer the 40 µm filter from the previous step containing your pure population of filtered adults to a new stack containing: (a) the labeled 50 mL tube (can use the same one but empty it first), (b) a connector ring, (c) a 20 µm filter, (d) a new 40 µm filter, and (e) the transferred 40 µm filter containing your adults in that order (**Figure 2**)
+    1. Make sure the connector ring is turned tightly to the closed position
+2. Add 500 uL of “happy worm egg-laying solution” to each 40 µm filter and let sit for one hour.
+    1. Happy worm egg-laying solution: 7.7 mM Nicotine + 12.3 mM serotonin in 1X M9
+        1. SN calculator: [here](https://docs.google.com/spreadsheets/d/1PbPDFXF_okpKsbWbmdGwoyWjviI9d5qH7SBh5zJ4MQ8/edit?usp=sharing)
+            1. Nicotine is in liquid already, serotonin must be first dissolved in M9
+    2. Make sure to check once or twice during the hour that the egg-laying solution still covers the entire filter and has not evaporated or leaked through the filter. 
+3. After one hour of egg laying, wash the funnels with a small amount of M9 (enough to fill the 40uM filter). Repeat this once.
+    1. The adults will stay on the 40 µm filter but most of the laid embryos will be collected on the 20 µm filter below.
+    2. Make sure not to “over-wash” at this step because some determined L4/adults will make it through the 40 µm filters. We would rather have less embryos collected than mistakenly collect more adults.
 
 ### Collecting Embryos
 
 *** When collecting embryos it is important to use K-medium ***
 
-1. To collect the embryo population set up a new stack containing: (a) a fresh 15 mL tube, (b) a glass funnel, (c) the 30 µm filter, inverted. 
+1. To collect the embryo population set up a new stack containing: (a) a fresh 15 mL tube, (b) a glass funnel, (c) the 30 (HE-LL) or 20 (40-40-20) µm filter, inverted. 
 2. Fill a 10mL syringe with K-media and attach 1.5 gauge needle. Squirt the K-media on to the underside of the 30 µm filter, allowing embryos to leave the filter and enter the 15 mL conical through the glass funnel. 
 3. To pellet the embryos, spin the 15mL conical at 1100 RPM for 1 minute. 
-4. Aspirate down to 2mL of K-media
+4. Aspirate down to 2mL of K-media.
 
 ### Plating Embryos
 
@@ -233,11 +270,11 @@
                     1. Grid 
                         1. Set Area per point to 500,000 pixels^2. This will divide the well into 5 sections
 
-                            ![Screen Shot 2021-08-27 at 10.26.33 AM.png](HE-LL(High%20Embryo,%20Less%20Lethality)-30%20Age%20Sync%20c56b70722b52435eb901f131a0a0c91c/Screen_Shot_2021-08-27_at_10.26.33_AM.png)
+                            ![Screen Shot 2021-08-27 at 10.26.33 AM.png](Age%20Synchronization%20Protocols%20c56b70722b52435eb901f131a0a0c91c/Screen_Shot_2021-08-27_at_10.26.33_AM.png)
 
     4. Now count the number of embryos and non embryos in a randomly selected grid. Its helpful to use the Multipoint tool to count embryos and non-embryos. You can find it in the ImageJ toolbar.
 
-        ![Screen Shot 2021-08-27 at 10.19.06 AM.png](HE-LL(High%20Embryo,%20Less%20Lethality)-30%20Age%20Sync%20c56b70722b52435eb901f131a0a0c91c/Screen_Shot_2021-08-27_at_10.19.06_AM.png)
+        ![Screen Shot 2021-08-27 at 10.19.06 AM.png](Age%20Synchronization%20Protocols%20c56b70722b52435eb901f131a0a0c91c/Screen_Shot_2021-08-27_at_10.19.06_AM.png)
 
     5. Record the number of embryos and non-embryos found in a grid and use these values to estimate the number of embryos and non-embryos within the well.
     6. Taking the average number of embryos and non-embryos in the two processed wells can give you an estimate of the purity and yield of the prep. 
